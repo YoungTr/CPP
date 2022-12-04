@@ -1,3 +1,4 @@
-set(APP_SRC test.cpp)
+set(APP_SRC MySTL.cpp)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
-add_executable(stltest ${APP_SRC})
+include_directories(${PROJECT_SOURCE_DIR}/STL/include)
+add_executable(stl ${APP_SRC})
