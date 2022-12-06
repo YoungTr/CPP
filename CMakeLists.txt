@@ -6,3 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(cpp main.cpp)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/STL)
+add_subdirectory(${PROJECT_SOURCE_DIR}/OOP)
